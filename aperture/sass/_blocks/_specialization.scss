@@ -1,0 +1,258 @@
+.specialization {
+  background-color: black;
+}
+.container {
+}
+.specialization__content {
+}
+.specialization__title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 42px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 120px;
+}
+.specialization__subtitle {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 30px;
+  text-align: center;
+  color: #c0c0c0;
+  margin-top: 17px;
+}
+.specialization__up-row {
+  margin-top: 40px;
+  ul {
+    display: flex;
+  }
+  .specialization__product {
+    background-image: url("/img/specialization/product.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    padding-right: 45px;
+    margin-left: 136px;
+    padding-bottom: 30px;
+  }
+  .specialization__product-title {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 22px;
+    padding-top: 421px;
+  }
+  .specialization__product-subtitle {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #c0c0c0;
+  }
+  .specialization__product-btn {
+    background: #ffffff;
+    border-radius: 14px;
+    height: 42px;
+    width: 143px;
+    text-align: center;
+    margin-top: 18px;
+
+    ul {
+      display: flex;
+      li:not(:last-child) {
+        padding: 4px 5px;
+      }
+      .specialization__product-btn-text {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: 0.4px;
+        color: #000000;
+        padding-top: 9px;
+        margin-left: 6px;
+      }
+    }
+  }
+  .specialization__architecture {
+    background-image: url("/img/specialization/architecture.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    padding-right: 32px;
+    margin-left: 16px;
+    padding-bottom: 30px;
+  }
+  .specialization__architecture-title {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 22px;
+    padding-top: 421px;
+  }
+  .specialization__architecture-subtitle {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #c0c0c0;
+  }
+  .specialization__architecture-btn {
+    background: #ffffff;
+    border-radius: 14px;
+    height: 42px;
+    width: 143px;
+    text-align: center;
+    margin-top: 18px;
+    ul {
+      display: flex;
+      li:not(:last-child) {
+        padding: 4px 5px;
+      }
+      .specialization__architecture-btn-text {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: 0.4px;
+        color: #000000;
+        padding-top: 9px;
+        margin-left: 6px;
+      }
+    }
+  }
+}
+
+.specialization__bottom-row {
+  margin-top: 16px;
+  ul {
+    display: flex;
+  }
+  .specialization__drone {
+    background-image: url("/img/specialization/drone.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 16px;
+    padding-bottom: 30px;
+    margin-left: 136px;
+  }
+  .specialization__drone-title {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 22px;
+    padding-top: 421px;
+  }
+  .specialization__drone-subtitle {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #c0c0c0;
+  }
+  .specialization__drone-btn {
+    background: #ffffff;
+    border-radius: 14px;
+    height: 42px;
+    width: 143px;
+    text-align: center;
+    margin-top: 18px;
+    ul {
+      display: flex;
+      li:not(:last-child) {
+        padding: 4px 5px;
+      }
+      .specialization__drone-btn-text {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: 0.4px;
+        color: #000000;
+        padding-top: 9px;
+        margin-left: 6px;
+      }
+    }
+  }
+  .specialization__wildlife {
+    background-image: url("/img/specialization/wildlife.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    padding-right: 66px;
+    margin-left: 14px;
+    padding-bottom: 30px;
+  }
+  .specialization__wildlife-title {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 22px;
+    padding-top: 421px;
+  }
+  .specialization__wildlife-subtitle {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #c0c0c0;
+  }
+  .specialization__wildlife-btn {
+    background: #ffffff;
+    border-radius: 14px;
+    height: 42px;
+    width: 143px;
+    text-align: center;
+    margin-top: 18px;
+    ul {
+      display: flex;
+      li:not(:last-child) {
+        padding: 4px 5px;
+      }
+      .specialization__wildlife-btn-text {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: 0.4px;
+        color: #000000;
+        padding-top: 9px;
+        margin-left: 6px;
+      }
+    }
+  }
+}
