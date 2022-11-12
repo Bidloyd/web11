@@ -1,0 +1,51 @@
+.fuji {
+  background-image: url("/img/fuji/fuji.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.fuji__title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-top: 330px;
+  padding-left: 1090px;
+}
+.fuji__subtitle {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #c0c0c0;
+  margin-bottom: 300px;
+  padding-left: 1090px;
+}
+.fuji__installation {
+  margin-top: 4px;
+  margin-left: 1200px;
+  padding-bottom: 40px;
+  ul {
+    display: flex;
+    li {
+      display: flex;
+    }
+  }
+}
+.fuji__icon {
+  margin-right: 6px;
+  margin-left: 16px;
+}
+.fuji__pereferens {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #ffffff;
+}

@@ -1,0 +1,112 @@
+.gear {
+  background-color: black;
+  a {
+    width: 143px;
+  }
+}
+
+.gear-row {
+  ul {
+    display: flex;
+    li {
+      display: flex;
+    }
+  }
+}
+.gear-left {
+  background-color: black;
+}
+.gear-left__discription {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding-top: 310px;
+  padding-left: 100px;
+  color: #c0c0c0;
+  margin-bottom: 6px;
+  margin-right: 488px;
+  white-space: nowrap;
+}
+.gear-left__title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+  padding-left: 100px;
+  color: #ffffff;
+  margin-bottom: 14px;
+}
+.gear-left__subtitle {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  padding-left: 100px;
+  margin-bottom: 20px;
+}
+.gear-left__btn {
+  background: #ffffff;
+  border-radius: 14px;
+  height: 42px;
+  width: 143px;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 100px;
+
+  ul {
+    display: flex;
+    li:not(:last-child) {
+      padding: 4px 5px;
+    }
+    .gear-left__btn-text {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 20px;
+      letter-spacing: 0.4px;
+      color: #000000;
+      padding-top: 9px;
+    }
+  }
+}
+.gear-right {
+  background-image: url("/img/gear/gear.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-right: 235px;
+}
+.gear-right__installation {
+  padding-top: 700px;
+  margin-left: 450px;
+  padding-bottom: 40px;
+  ul {
+    display: flex;
+    li {
+      display: flex;
+    }
+  }
+}
+.gear-right__icon {
+  margin-right: 6px;
+  margin-left: 16px;
+  position: relative;
+  z-index: 100;
+  height: 16px;
+  width: 16px;
+}
+.gear-right__pereferens {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #ffffff;
+}
