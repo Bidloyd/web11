@@ -1,0 +1,59 @@
+.leafs {
+  background-image: url("/img/leafs/leafs.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 40px;
+}
+.leafs-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-top: 340px;
+  margin-left: 1200px;
+}
+.leafs-subtitle {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #c0c0c0;
+  margin-left: 1200px;
+  white-space: nowrap;
+}
+.leafs-installation {
+  margin-top: 270px;
+  margin-left: 1210px;
+  ul {
+    display: flex;
+    li {
+      display: flex;
+    }
+  }
+}
+.leafs-icon {
+  margin-right: 6px;
+  margin-left: 16px;
+  height: 16px;
+  width: 16px;
+}
+.leafs-icon__iso {
+  margin-right: 6px;
+  margin-left: 16px;
+  height: 16px;
+  width: 32px;
+}
+.leafs-pereferens {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #fff;
+  white-space: nowrap;
+}

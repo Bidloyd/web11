@@ -57,6 +57,7 @@
     line-height: 20px;
     color: #c0c0c0;
   }
+
   .specialization__product-btn {
     background: #ffffff;
     border-radius: 14px;
@@ -64,6 +65,12 @@
     width: 143px;
     text-align: center;
     margin-top: 18px;
+    a {
+      &:hover {
+        color: red;
+        transition: 0.6s;
+      }
+    }
 
     ul {
       display: flex;
