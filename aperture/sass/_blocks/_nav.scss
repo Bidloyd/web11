@@ -1,17 +1,18 @@
 .nav {
   background-color: #181818;
   padding: 25px;
-  overflow: hidden;
+
+  top: 0;
+  width: 100%;
 }
 .sticky {
   position: fixed;
   top: 0;
   width: 100%;
   background-color: #181818;
-}
-.sticky {
   padding: 25px;
 }
+
 .nav__row {
   display: flex;
   ul {
