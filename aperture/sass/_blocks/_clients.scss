@@ -1,0 +1,64 @@
+.clients {
+  background-color: #000000;
+}
+.clients_row {
+  ul {
+    display: flex;
+    padding-bottom: 169px;
+    li {
+      margin-right: 109px;
+    }
+  }
+}
+.clients_title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 42px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 113px;
+}
+.clients_subtitle {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: #c0c0c0;
+  margin-top: 15px;
+  margin-bottom: 103px;
+}
+.clients_hayes {
+  margin-left: 182px;
+  &:hover {
+    transition: 0.7s;
+    transform: scale(1.1);
+  }
+}
+.clients_riksgransen {
+  &:hover {
+    transition: 0.7s;
+    transform: scale(1.1);
+  }
+}
+.clients_cai {
+  &:hover {
+    transition: 0.7s;
+    transform: scale(1.1);
+  }
+}
+.clients_chill {
+  &:hover {
+    transition: 0.7s;
+    transform: scale(1.1);
+  }
+}
+.clients_stockholm {
+  &:hover {
+    transition: 0.7s;
+    transform: scale(1.1);
+  }
+}

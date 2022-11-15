@@ -1,0 +1,61 @@
+.star {
+  background-image: url("/img/star/star.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.star-title {
+  padding-top: 600px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-top: 330px;
+  padding-left: 1240px;
+  white-space: nowrap;
+}
+.star-subtitle {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #c0c0c0;
+  padding-left: 1240px;
+  white-space: nowrap;
+}
+.star-installation {
+  margin-top: 290px;
+  padding-left: 1300px;
+  padding-bottom: 49px;
+  ul {
+    display: flex;
+    li {
+      display: flex;
+    }
+  }
+}
+.star-icon {
+  height: 16px;
+  width: 16px;
+  margin-right: 6px;
+  margin-left: 16px;
+}
+
+.star-icon__iso {
+  height: 16px;
+  margin-right: 6px;
+  margin-left: 16px;
+  width: 32px;
+}
+.star-pereferens {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #ffffff;
+}
