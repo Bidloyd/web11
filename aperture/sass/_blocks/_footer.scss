@@ -1,0 +1,83 @@
+.footer {
+  background-color: #000000;
+}
+.footer__top {
+  padding-top: 100px;
+  margin-left: 136px;
+  border-bottom: #ffffff solid 2px;
+  padding-bottom: 36px;
+  margin-right: 136px;
+  ul {
+    display: flex;
+  }
+}
+.footer__column-left {
+}
+.footer__logo {
+}
+.footer__subtitle {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #c0c0c0;
+  padding-top: 20px;
+  white-space: nowrap;
+}
+.footer__column-right {
+  padding-left: 256px;
+  ul {
+    display: flex;
+  }
+  .column-right__right {
+    padding-left: 88px;
+  }
+  .column-right__left {
+  }
+}
+.right-title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #c0c0c0;
+  margin-bottom: 10px;
+}
+.right-subtitle {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  margin-bottom: 10px;
+  a {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #ffffff;
+    &:hover {
+      color: #6d6d6d;
+      transition: 0.7s;
+      transform: scale(1.1);
+    }
+  }
+}
+.footer__mid {
+}
+.footer__title {
+}
+.form {
+}
+.form__label {
+}
+.form__input {
+}
+.form__button {
+}
+.bottom {
+}
+.license {
+}
+.social {
+}

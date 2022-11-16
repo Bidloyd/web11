@@ -1,5 +1,6 @@
 .contact {
   background-color: #000000;
+    padding-bottom: 100px;
 }
 .content_title {
   font-family: "Poppins";
@@ -28,15 +29,13 @@
   height: 42px;
   width: 154px;
   text-align: center;
-  margin-left: 650px;
+  margin-left: 640px;
   ul {
     display: flex;
     li:not(:last-child) {
       padding: 4px 5px;
     }
   }
-}
-.specialization__btn-circle {
 }
 .specialization__btn-text {
   font-family: "Poppins";

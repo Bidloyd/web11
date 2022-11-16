@@ -1,7 +1,6 @@
 .nav {
   background-color: #181818;
   padding: 25px;
-
   top: 0;
   width: 100%;
 }
@@ -27,6 +26,8 @@
   margin-top: 10px;
   margin-left: 338px;
   margin-right: 31px;
+  &:hover {
+  }
   ul {
     display: flex;
     li {
