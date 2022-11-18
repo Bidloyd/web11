@@ -26,8 +26,6 @@
   margin-top: 10px;
   margin-left: 338px;
   margin-right: 31px;
-  &:hover {
-  }
   ul {
     display: flex;
     li {
@@ -42,6 +40,7 @@
         &:hover {
           color: #6d6d6d;
           transition: 0.6s;
+          transform: scale(1.1);
         }
       }
     }

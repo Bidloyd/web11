@@ -184,6 +184,8 @@ html {
   color: #6d6d6d;
   -webkit-transition: 0.6s;
   transition: 0.6s;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .nav__btn {
@@ -1076,6 +1078,13 @@ html {
   color: #ffffff;
   margin-bottom: 10px;
 }
+.right-subtitle:hover {
+  color: #6d6d6d;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
 .right-subtitle a {
   font-family: "Poppins";
   font-style: normal;
@@ -1084,8 +1093,99 @@ html {
   line-height: 20px;
   color: #ffffff;
 }
-.right-subtitle a:hover {
-  color: #6d6d6d;
+
+.footer__mid {
+  border-bottom: #ffffff solid 2px;
+  margin-right: 136px;
+  margin-left: 136px;
+  padding-bottom: 40px;
+}
+.footer__mid ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  white-space: nowrap;
+  margin-top: 36px;
+}
+
+.f__sub {
+  margin-top: 10px;
+}
+
+.form {
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  margin-left: 444px;
+  margin-top: 45px;
+  height: 52px;
+  width: 458px;
+}
+
+.form__label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.form__input {
+  height: 50px;
+  padding-right: 10px;
+  width: 390px;
+}
+
+.form__button {
+  height: 30px;
+  width: 63px;
+  background: #000000;
+  border-radius: 11px;
+  margin-top: 11px;
+}
+
+.footer__bottom {
+  padding-bottom: 100px;
+}
+.footer__bottom ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.license {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #c0c0c0;
+  margin-top: 56px;
+  margin-left: 136px;
+}
+
+.social {
+  margin-right: 136px;
+  margin-top: 56px;
+}
+.social ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.social ul li {
+  margin-left: 20px;
+}
+
+.socia__icon:hover {
   -webkit-transition: 0.7s;
   transition: 0.7s;
   -webkit-transform: scale(1.1);

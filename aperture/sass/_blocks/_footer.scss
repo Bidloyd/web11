@@ -49,6 +49,11 @@
   line-height: 20px;
   color: #ffffff;
   margin-bottom: 10px;
+  &:hover {
+    color: #6d6d6d;
+    transition: 0.7s;
+    transform: scale(1.1);
+  }
   a {
     font-family: "Poppins";
     font-style: normal;
@@ -56,28 +61,85 @@
     font-size: 15px;
     line-height: 20px;
     color: #ffffff;
-    &:hover {
-      color: #6d6d6d;
-      transition: 0.7s;
-      transform: scale(1.1);
-    }
   }
 }
 .footer__mid {
+  border-bottom: #ffffff solid 2px;
+  margin-right: 136px;
+  margin-left: 136px;
+  padding-bottom: 40px;
+  ul {
+    display: flex;
+    li {
+    }
+  }
 }
 .footer__title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  white-space: nowrap;
+  margin-top: 36px;
+}
+.f__sub {
+  margin-top: 10px;
 }
 .form {
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  margin-left: 444px;
+  margin-top: 45px;
+  height: 52px;
+  width: 458px;
 }
 .form__label {
+  display: flex;
 }
 .form__input {
+  height: 50px;
+  padding-right: 10px;
+  width: 390px;
 }
 .form__button {
+  height: 30px;
+  width: 63px;
+  background: #000000;
+  border-radius: 11px;
+
+  margin-top: 11px;
 }
-.bottom {
+.footer__bottom {
+  padding-bottom: 100px;
+  ul {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 .license {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #c0c0c0;
+  margin-top: 56px;
+  margin-left: 136px;
 }
 .social {
+  margin-right: 136px;
+  margin-top: 56px;
+  ul {
+    display: flex;
+    li {
+      margin-left: 20px;
+    }
+  }
+}
+.socia__icon {
+  &:hover {
+    transition: 0.7s;
+    transform: scale(1.1);
+  }
 }
