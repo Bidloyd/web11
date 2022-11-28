@@ -1,0 +1,45 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 64px 80px;
+  font-family: "Gilroy-Bold", sans-serif;
+}
+
+.menu {
+  ul {
+    display: flex;
+    li {
+      &:hover {
+        transform: scale(1.05);
+        transition: 0.1s;
+      }
+      margin-left: 40px;
+      a {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        color: #ffffff;
+        &:hover {
+          color: #fbd784;
+          transition: 0.4s ease-in;
+        }
+      }
+    }
+  }
+}
+.login {
+  &:hover {
+    transform: scale(1.05);
+    transition: 0.1s;
+  }
+  a {
+    font-size: 17px;
+    line-height: 21px;
+    color: #ffffff;
+    &:hover {
+      color: #fbd784;
+      transition: 0.4s ease-in;
+    }
+  }
+}

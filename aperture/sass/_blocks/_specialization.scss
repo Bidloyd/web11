@@ -25,6 +25,9 @@
 }
 .specialization__up-row {
   margin-top: 40px;
+  @include breakpoint(lg) {
+    flex: 0 0 100%;
+  }
   ul {
     display: flex;
   }
