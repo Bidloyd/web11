@@ -126,6 +126,12 @@ html {
   scroll-behavior: smooth;
 }
 
+.header,
+.main,
+.footer {
+  display: none;
+}
+
 .body {
   background-color: #0b1d26;
   background-image: url(/img/header/BG.jpg);
@@ -242,15 +248,42 @@ html {
   transition: 0.1s;
 }
 .menu ul li a {
-  font-weight: 700;
+  font-weight: 500;
+  position: relative;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 32px;
   color: #ffffff;
+}
+.menu ul li a::after {
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  display: block;
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: #fbd784;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  opacity: 0;
 }
 .menu ul li a:hover {
   color: #fbd784;
   -webkit-transition: 0.4s ease-in;
   transition: 0.4s ease-in;
+}
+.menu ul li a:hover::after {
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  display: block;
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: #fbd784;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  opacity: 1;
 }
 
 .login:hover {
@@ -377,6 +410,12 @@ html {
   font-weight: 700;
   font-size: 18px;
   line-height: 23px;
+}
+.read-more:hover {
+  -webkit-transition: 0.4s ease-in;
+  transition: 0.4s ease-in;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 .read-more::after {
   display: block;
