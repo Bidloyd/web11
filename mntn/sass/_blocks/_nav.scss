@@ -1,11 +1,18 @@
-.nav {
+.nav__row {
   display: flex;
   justify-content: space-between;
   align-content: center;
   padding: 64px 80px;
   font-family: "Gilroy-Bold", sans-serif;
 }
-
+.logo {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  color: #ffffff;
+}
 .menu {
   ul {
     display: flex;
@@ -54,6 +61,7 @@
   }
 }
 .login {
+  margin-top: 7px;
   &:hover {
     transform: scale(1.05);
     transition: 0.1s;
@@ -66,5 +74,87 @@
       color: #fbd784;
       transition: 0.4s ease-in;
     }
+  }
+}
+
+.mobile__nav {
+  position: relative;
+  z-index: 10;
+  padding: 0;
+  display: none;
+  height: 25px;
+  margin-top: 8px;
+
+  .mobile__nav-icon {
+    display: block;
+    background-color: white;
+    width: 42px;
+    height: 5px;
+    border: none;
+    position: relative;
+    border-radius: 6px;
+    &::before {
+      content: "";
+      display: block;
+      width: 42px;
+      height: 5px;
+      background-color: white;
+      position: absolute;
+      left: 0;
+      top: -10px;
+      border-radius: 6px;
+    }
+    &::after {
+      content: "";
+      display: block;
+      width: 42px;
+      height: 5px;
+      background-color: white;
+      position: absolute;
+      left: 0;
+      bottom: -10px;
+      border-radius: 6px;
+    }
+  }
+}
+
+.mobile__nav-close .mobile__nav-icon {
+  background-color: transparent;
+  &::before {
+    transform: rotate(45deg);
+    top: 0;
+  }
+  &::after {
+    transform: rotate(-45deg);
+    top: 0;
+  }
+}
+
+.mobile__menu {
+  display: none;
+  padding: 70px 70px 50px 30px;
+  opacity: 0.8;
+  position: fixed;
+  height: 100%;
+  width: 320px;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #0b1d26;
+  top: 0;
+  right: 0;
+  & .login {
+    margin-top: 550px;
+  }
+  & ul {
+    flex-direction: column;
+    li {
+      margin: 0;
+      margin-bottom: 25px;
+    }
+  }
+
+  & .menu,
+  .login {
+    display: block;
   }
 }

@@ -11,7 +11,30 @@
   <body class="body">
     <header class="header">
       <nav class="nav">
-        <div class="logo"><img src="img/nav/Logo.svg" alt="Logo" /></div>
+        <div class="nav__row">
+          <div class="logo">MNTN</div>
+          <div class="menu">
+            <ul>
+              <li>
+                <a href="#!">Equipment</a>
+              </li>
+              <li>
+                <a href="#!">About us</a>
+              </li>
+              <li>
+                <a href="#!">Blog</a>
+              </li>
+            </ul>
+          </div>
+          <div class="login">
+            <img src="img/nav/cart.svg" alt="" /> <a href="#!"> Account</a>
+          </div>
+          <button class="mobile__nav">
+            <span class="mobile__nav-icon"></span>
+          </button>
+        </div>
+      </nav>
+      <div class="mobile__menu">
         <div class="menu">
           <ul>
             <li>
@@ -28,13 +51,10 @@
         <div class="login">
           <img src="img/nav/cart.svg" alt="" /> <a href="#!"> Account</a>
         </div>
-      </nav>
+      </div>
       <a href="#!" class="hero">
         <div class="hero__category">A Hiking guide</div>
-        <h1 class="hero__title">
-          Be Prepared For The
-          <p>Mountains And Beyond!</p>
-        </h1>
+        <h1 class="hero__title">Be Prepared For The Mountains And Beyond!</h1>
         <p class="hero__scroll">scroll down</p>
       </a>
     </header>
@@ -119,7 +139,7 @@
         </article>
       </div>
     </main>
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="container">
         <div class="footer__row">
           <div class="footer__copyright">
@@ -154,6 +174,7 @@
           </div>
         </div>
       </div>
-    </footer>
+    </footer> -->
+    <script src="js/mobile-btn.js"></script>
   </body>
 </html>

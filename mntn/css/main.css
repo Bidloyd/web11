@@ -126,12 +126,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.header,
-.main,
-.footer {
-  display: none;
-}
-
 .body {
   background-color: #0b1d26;
   background-image: url(/img/header/BG.jpg);
@@ -185,7 +179,6 @@ html {
   font-style: normal;
   font-weight: 700;
   font-size: 88px;
-  line-height: 100px;
   text-transform: capitalize;
   color: #ffffff;
   -webkit-box-flex: 0;
@@ -196,7 +189,6 @@ html {
           order: 1;
   -ms-flex-positive: 0;
       flex-grow: 0;
-  white-space: nowrap;
 }
 
 .hero__scroll {
@@ -220,7 +212,7 @@ html {
   background-image: url("/img/header/arrow_downward_24px.svg");
 }
 
-.nav {
+.nav__row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -231,6 +223,15 @@ html {
       align-content: center;
   padding: 64px 80px;
   font-family: "Gilroy-Bold", sans-serif;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  color: #ffffff;
 }
 
 .menu ul {
@@ -286,6 +287,9 @@ html {
   opacity: 1;
 }
 
+.login {
+  margin-top: 7px;
+}
 .login:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
@@ -301,6 +305,96 @@ html {
   color: #fbd784;
   -webkit-transition: 0.4s ease-in;
   transition: 0.4s ease-in;
+}
+
+.mobile__nav {
+  position: relative;
+  z-index: 10;
+  padding: 0;
+  display: none;
+  height: 25px;
+  margin-top: 8px;
+}
+.mobile__nav .mobile__nav-icon {
+  display: block;
+  background-color: white;
+  width: 42px;
+  height: 5px;
+  border: none;
+  position: relative;
+  border-radius: 6px;
+}
+.mobile__nav .mobile__nav-icon::before {
+  content: "";
+  display: block;
+  width: 42px;
+  height: 5px;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  top: -10px;
+  border-radius: 6px;
+}
+.mobile__nav .mobile__nav-icon::after {
+  content: "";
+  display: block;
+  width: 42px;
+  height: 5px;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  border-radius: 6px;
+}
+
+.mobile__nav-close .mobile__nav-icon {
+  background-color: transparent;
+}
+.mobile__nav-close .mobile__nav-icon::before {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  top: 0;
+}
+.mobile__nav-close .mobile__nav-icon::after {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  top: 0;
+}
+
+.mobile__menu {
+  display: none;
+  padding: 70px 70px 50px 30px;
+  opacity: 0.8;
+  position: fixed;
+  height: 100%;
+  width: 320px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #0b1d26;
+  top: 0;
+  right: 0;
+}
+.mobile__menu .login {
+  margin-top: 550px;
+}
+.mobile__menu ul {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.mobile__menu ul li {
+  margin: 0;
+  margin-bottom: 25px;
+}
+.mobile__menu .menu,
+.mobile__menu .login {
+  display: block;
 }
 
 .article {
@@ -531,6 +625,73 @@ html {
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
   opacity: 1;
+}
+
+@media (max-width: 1200px) {
+  .hero__title {
+    font-size: 58px;
+  }
+
+  .text {
+    padding-left: 50px;
+    max-width: 50%;
+  }
+  .text::before {
+    width: 140px;
+    height: 140px;
+    font-size: 140px;
+  }
+
+  .img {
+    max-width: 45%;
+    max-height: 45%;
+  }
+}
+@media (max-width: 800px) {
+  .menu,
+  .login {
+    display: none;
+  }
+
+  .nav__row {
+    padding: 64px 40px;
+  }
+
+  .hero {
+    padding-top: 20px;
+    margin-bottom: 250px;
+  }
+
+  .hero__title {
+    line-height: 50px;
+  }
+
+  .mobile__nav,
+  .mobile__nav-icon {
+    display: block;
+  }
+
+  .mobile__menu {
+    z-index: 9;
+  }
+
+  .mobile__menu-active {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .hero__title {
+    font-size: 38px;
+  }
+
+  .hero__category {
+    font-size: 14px;
+    padding-left: 62px;
+  }
+  .hero__category::before {
+    width: 42px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
