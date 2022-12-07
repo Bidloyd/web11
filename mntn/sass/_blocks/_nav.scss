@@ -61,12 +61,17 @@
   }
 }
 .login {
+  display: flex;
   margin-top: 7px;
+  width: 24px;
+  height: 24px;
+  margin-right: 75px;
   &:hover {
     transform: scale(1.05);
     transition: 0.1s;
   }
   a {
+    margin-left: 7px;
     font-size: 17px;
     line-height: 21px;
     color: #ffffff;
@@ -120,6 +125,8 @@
 
 .mobile__nav-close .mobile__nav-icon {
   background-color: transparent;
+  position: fixed;
+  right: 40px;
   &::before {
     transform: rotate(45deg);
     top: 0;
@@ -131,9 +138,10 @@
 }
 
 .mobile__menu {
+  position: absolute;
   display: none;
   padding: 70px 70px 50px 30px;
-  opacity: 0.8;
+  opacity: 0.9;
   position: fixed;
   height: 100%;
   width: 320px;

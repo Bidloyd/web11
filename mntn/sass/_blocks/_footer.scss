@@ -25,12 +25,11 @@
   margin-top: 138px;
 }
 .footer__nav-wrapper {
-  margin-left: 525px;
+  margin-left: 425px;
   display: flex;
 }
+
 .footer__nav {
-  margin-right: 207px;
-  white-space: nowrap;
   h4 {
     font-weight: 700;
     font-size: 24px;
@@ -81,5 +80,8 @@
         }
       }
     }
+  }
+  &:not(:last-child) {
+    margin-right: 207px;
   }
 }

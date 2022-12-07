@@ -179,6 +179,7 @@ html {
   font-style: normal;
   font-weight: 700;
   font-size: 88px;
+  line-height: 100px;
   text-transform: capitalize;
   color: #ffffff;
   -webkit-box-flex: 0;
@@ -288,7 +289,13 @@ html {
 }
 
 .login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   margin-top: 7px;
+  width: 24px;
+  height: 24px;
+  margin-right: 75px;
 }
 .login:hover {
   -webkit-transform: scale(1.05);
@@ -297,6 +304,7 @@ html {
   transition: 0.1s;
 }
 .login a {
+  margin-left: 7px;
   font-size: 17px;
   line-height: 21px;
   color: #ffffff;
@@ -349,6 +357,8 @@ html {
 
 .mobile__nav-close .mobile__nav-icon {
   background-color: transparent;
+  position: fixed;
+  right: 40px;
 }
 .mobile__nav-close .mobile__nav-icon::before {
   -webkit-transform: rotate(45deg);
@@ -362,9 +372,10 @@ html {
 }
 
 .mobile__menu {
+  position: absolute;
   display: none;
   padding: 70px 70px 50px 30px;
-  opacity: 0.8;
+  opacity: 0.9;
   position: fixed;
   height: 100%;
   width: 320px;
@@ -401,6 +412,8 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-column-gap: 30px;
+          column-gap: 30px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -525,6 +538,8 @@ html {
 .img {
   position: relative;
   margin-top: -160px;
+  display: block;
+  max-width: 100%;
 }
 
 .footer {
@@ -562,16 +577,12 @@ html {
 }
 
 .footer__nav-wrapper {
-  margin-left: 525px;
+  margin-left: 425px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.footer__nav {
-  margin-right: 207px;
-  white-space: nowrap;
-}
 .footer__nav h4 {
   font-weight: 700;
   font-size: 24px;
@@ -626,7 +637,15 @@ html {
   transition: all 0.2s ease-in;
   opacity: 1;
 }
+.footer__nav:not(:last-child) {
+  margin-right: 207px;
+}
 
+@media (max-width: 1600px) {
+  .hero {
+    margin-bottom: 400px;
+  }
+}
 @media (max-width: 1200px) {
   .hero__title {
     font-size: 58px;
@@ -640,11 +659,27 @@ html {
     width: 140px;
     height: 140px;
     font-size: 140px;
+    margin-top: -20px;
+  }
+
+  .hero {
+    margin-bottom: 400px;
+    padding-top: 20px;
   }
 
   .img {
-    max-width: 45%;
-    max-height: 45%;
+    margin-top: 100px;
+    width: 40%;
+    height: 40%;
+  }
+
+  .category {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 1100px) {
+  .footer__nav {
+    margin-right: 50px;
   }
 }
 @media (max-width: 800px) {
@@ -691,6 +726,74 @@ html {
   }
   .hero__category::before {
     width: 42px;
+  }
+
+  .title {
+    font-size: 44px;
+  }
+
+  .category {
+    font-size: 12px;
+    margin-top: 42px;
+  }
+  .category::before {
+    width: 68px;
+  }
+
+  .text {
+    padding-left: 50px;
+    max-width: 50%;
+  }
+  .text::before {
+    width: 100px;
+    height: 100px;
+    font-size: 100px;
+  }
+}
+@media (max-width: 720px) {
+  .article {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .article:nth-child(even) {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .article:not(:last-child) {
+    margin-bottom: 100px;
+  }
+
+  .text {
+    max-width: 100%;
+  }
+
+  .text.text-03::before {
+    margin-top: 0;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .img {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .category {
+    font-size: 10px;
+  }
+
+  .subtitle {
+    font-size: 16px;
+  }
+
+  .hero {
+    margin-bottom: 150px;
   }
 }
 

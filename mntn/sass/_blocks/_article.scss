@@ -1,5 +1,6 @@
 .article {
   display: flex;
+  column-gap: 30px;
   justify-content: space-between;
   &:not(:last-child) {
     margin-bottom: 400px;
@@ -98,4 +99,6 @@
 .img {
   position: relative;
   margin-top: -160px;
+  display: block;
+  max-width: 100%;
 }
