@@ -150,6 +150,9 @@
   background-color: #0b1d26;
   top: 0;
   right: 0;
+  &:hover {
+    transition: 0.6s;
+  }
   & .login {
     margin-top: 550px;
   }
@@ -163,6 +166,9 @@
 
   & .menu,
   .login {
-    display: block;
+    display: flex;
+    a {
+      margin-top: 2px;
+    }
   }
 }
