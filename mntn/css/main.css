@@ -770,6 +770,61 @@ html {
   margin-left: 200px;
 }
 
+.row__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.row__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 42px;
+}
+
+.img.about__img-top {
+  margin-top: 0;
+  right: 0;
+  margin-left: 45px;
+  margin-bottom: 100px;
+  margin-top: -50px;
+}
+
+.img.about__img-bottom {
+  margin-top: 0;
+  left: 40px;
+  margin-top: 50px;
+}
+
+.read-more.read-more__bottom {
+  left: 0%;
+  position: absolute;
+  bottom: -30%;
+}
+
+.subtitle.subtitle__bottom {
+  margin-left: 100px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.news {
+  margin-top: 240px;
+}
+
+.date {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 135%;
+  text-align: center;
+  color: #009785;
+}
+
+.title.title__flex {
+  margin-left: 800px;
+}
+
 @media (max-width: 1600px) {
   .hero {
     margin-bottom: 400px;

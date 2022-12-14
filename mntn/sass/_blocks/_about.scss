@@ -1,0 +1,30 @@
+.row__top {
+  display: flex;
+}
+.row__bottom {
+  display: flex;
+
+  margin-top: 42px;
+}
+.img.about__img-top {
+  margin-top: 0;
+  right: 0;
+  margin-left: 45px;
+  margin-bottom: 100px;
+  margin-top: -50px;
+}
+.img.about__img-bottom {
+  margin-top: 0;
+  left: 40px;
+  margin-top: 50px;
+}
+.read-more.read-more__bottom {
+  left: 0%;
+  position: absolute;
+  bottom: -30%;
+}
+.subtitle.subtitle__bottom {
+  margin-left: 100px;
+  margin-bottom: 20px;
+  position: relative;
+}
