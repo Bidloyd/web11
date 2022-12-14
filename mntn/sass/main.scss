@@ -66,6 +66,12 @@
     padding-top: 20px;
     margin-bottom: 250px;
   }
+  .hero__category {
+    text-shadow: 1px 1px black;
+    &::before {
+      box-shadow: 1px 1px black;
+    }
+  }
   .hero__title {
     line-height: 50px;
     text-shadow: 0px 0px 15px #0b1d26;
@@ -150,6 +156,21 @@
   }
   .footer__nav:not(:last-child) {
     margin-bottom: 40px;
+  }
+  .img {
+    padding-right: 30px;
+  }
+  .popup.popup2,
+  .popup.popup3,
+  .popup.popup {
+    .popup__title {
+      font-size: 34px;
+    }
+    .popup__close,
+    .popup__close2,
+    .popup__close3 {
+      right: 30px;
+    }
   }
 }
 @keyframes ani {

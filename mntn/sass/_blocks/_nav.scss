@@ -6,15 +6,25 @@
   font-family: "Gilroy-Bold", sans-serif;
 }
 .logo {
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 42px;
-  letter-spacing: 0.01em;
-  text-transform: capitalize;
-  color: #ffffff;
+  a {
+    display: block;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #ffffff;
+    transition: all 0.3s;
+    &:hover {
+      transition: 0.2s ease-in;
+      color: #009785;
+      transform: scale(1.05);
+    }
+  }
 }
 .menu {
   ul {
+    margin-top: 10px;
     display: flex;
     li {
       &:hover {
@@ -39,11 +49,11 @@
           content: "";
           width: 100%;
           height: 2px;
-          background-color: #fbd784;
+          background-color: #009785;
           opacity: 0;
         }
         &:hover {
-          color: #fbd784;
+          color: #009785;
           transition: 0.4s ease-in;
           &::after {
             bottom: -5px;
@@ -56,7 +66,7 @@
 }
 .login {
   display: flex;
-  margin-top: 7px;
+  margin-top: 17px;
   width: 24px;
   height: 24px;
   margin-right: 75px;
@@ -71,7 +81,7 @@
     line-height: 21px;
     color: #ffffff;
     &:hover {
-      color: #fbd784;
+      color: #009785;
       transition: 0.4s ease-in;
     }
   }
@@ -161,7 +171,7 @@
   }
 
   & .login {
-    margin-top: 550px;
+    margin-bottom: 100px;
   }
   & ul {
     flex-direction: column;
@@ -179,6 +189,7 @@
     }
   }
 }
-.mobile__menu .mobile__menu-active {
+.mobile__menu.mobile__menu-active {
   transition: all 0.5s;
+  transform: translateX(150%);
 }
