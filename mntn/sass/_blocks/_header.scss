@@ -30,6 +30,7 @@
   letter-spacing: 6px;
   text-transform: uppercase;
   color: #009785;
+  text-shadow: 0.5px 0.5px black;
 
   &::before {
     transform: translateY(-50%);
@@ -41,6 +42,7 @@
     width: 72px;
     height: 2px;
     background-color: #009785;
+    box-shadow: 0.5px 0.5px black;
   }
 }
 .hero__title {

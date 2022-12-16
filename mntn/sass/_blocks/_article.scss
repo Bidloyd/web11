@@ -12,7 +12,6 @@
 .text {
   position: relative;
   padding-left: 150px;
-
   &::before {
     top: 0px;
     transform: translateY(-40%);
