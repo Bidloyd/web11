@@ -4,13 +4,14 @@
 .about__bottom {
   display: flex;
   margin-top: 42px;
+  position: relative;
+  padding-left: 150px;
 }
 .img.about__img-top {
   margin-top: 0;
   right: 0;
   margin-left: 45px;
-  margin-bottom: 100px;
-  margin-top: -50px;
+  padding-top: 200px;
 }
 .img.about__img-bottom {
   margin-top: 0;

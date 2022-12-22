@@ -784,14 +784,15 @@ html {
   display: -ms-flexbox;
   display: flex;
   margin-top: 42px;
+  position: relative;
+  padding-left: 150px;
 }
 
 .img.about__img-top {
   margin-top: 0;
   right: 0;
   margin-left: 45px;
-  margin-bottom: 100px;
-  margin-top: -50px;
+  padding-top: 200px;
 }
 
 .img.about__img-bottom {
@@ -935,6 +936,16 @@ html {
     margin-bottom: 400px;
   }
 }
+@media (max-width: 1495px) {
+  .about__bottom {
+    padding-left: 0px;
+  }
+}
+@media (max-width: 1350px) {
+  .subtitle__bottom {
+    width: 400px;
+  }
+}
 @media (max-width: 1200px) {
   .hero__title {
     font-size: 58px;
@@ -965,7 +976,6 @@ html {
   .about__img-top {
     width: 50%;
     height: 50%;
-    padding-top: 300px;
   }
 
   .category {
@@ -990,6 +1000,15 @@ html {
         -ms-flex-pack: left;
             justify-content: left;
     margin-bottom: 80px;
+  }
+
+  .about__bottom {
+    padding-left: 0px;
+  }
+}
+@media (max-width: 840px) {
+  .subtitle.subtitle__bottom {
+    width: 300px;
   }
 }
 @media (max-width: 800px) {
@@ -1061,12 +1080,6 @@ html {
     font-size: 100px;
   }
 }
-.about__img-top {
-  width: 30%;
-  height: 60%;
-  padding-top: 300px;
-}
-
 @media (max-width: 720px) {
   .article {
     -webkit-box-orient: vertical;
@@ -1105,14 +1118,36 @@ html {
   .about__img-top {
     width: 90%;
     margin-bottom: 50px;
-    left: 35px;
+    left: 0;
+    margin-left: 0px;
   }
 
-  .about {
+  .about__img-bottom {
+    width: 90%;
+    margin-bottom: 50px;
+    left: 0;
+    margin-left: 0px;
+  }
+
+  .subtitle.subtitle__bottom {
+    left: -15%;
+    width: auto;
+  }
+
+  .about__top {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
+  }
+
+  .about__bottom {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    flex-direction: column;
+    padding-left: 0px;
   }
 
   .category {
