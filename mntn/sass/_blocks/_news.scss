@@ -1,15 +1,16 @@
 .news {
   margin-top: 240px;
   display: flex;
-  flex-direction: row-reverse;
+
   margin-bottom: 200px;
 }
 .news__top-row {
   display: flex;
+  column-gap: 120px;
 }
 .news__bottom-row {
   display: flex;
-  column-gap: 150px;
+  column-gap: 120px;
 }
 .title.title__news {
   margin-top: 27px;
@@ -25,7 +26,7 @@
   color: #009785;
   margin-top: 85px;
   display: block;
-  padding-right: 590px;
+  margin-left: -85%;
 }
 
 .img__news {
