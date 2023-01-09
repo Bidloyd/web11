@@ -1,0 +1,42 @@
+.header {
+  background-color: #004e35;
+}
+.nav {
+}
+.nav__row {
+  display: flex;
+  align-items: center;
+  padding-top: 16px;
+}
+.logo {
+  margin: 0px 580px 5px 24px;
+}
+.menu {
+  ul {
+    display: flex;
+    li {
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 17px;
+      letter-spacing: 0.2px;
+      color: #88e53e;
+      margin-left: 48px;
+      transition: all 0.3s;
+      &:hover {
+        transform: scale(1.05);
+        transition: 0.3s;
+      }
+      a {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 17px;
+        letter-spacing: 0.2px;
+        color: #88e53e;
+        transform: scale(1.5);
+        &:hover {
+          transition: 0.2s;
+        }
+      }
+    }
+  }
+}

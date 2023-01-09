@@ -1,0 +1,32 @@
+.platform {
+  background: #004e35;
+}
+.platform__thumbnail {
+  padding: 45px 0px 438px 0px;
+  font-weight: 400;
+  font-size: 144px;
+  line-height: 130px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #fbf4eb;
+}
+.platform__row {
+  display: flex;
+}
+.platform__libraries {
+  background: #fbf4eb;
+}
+.libraries__text {
+  font-size: 45px;
+  line-height: 45px;
+  letter-spacing: 0.2px;
+  color: #004e35;
+}
+.libraries__btn {
+}
+.platform__intelligence {
+  background: #fbf4eb;
+}
+.platform__learning {
+  background: #fbf4eb;
+}

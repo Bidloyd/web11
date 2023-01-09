@@ -1,0 +1,39 @@
+.mission {
+}
+.mission__thumbnail {
+  margin-top: 51px;
+  font-size: 112px;
+  line-height: 101px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #004e35;
+}
+.goals {
+  display: flex;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  color: #004e35;
+  margin: 84px 0px 0px 630px;
+  border-bottom: #004e35 1px solid;
+  padding-bottom: 17px;
+  width: 608px;
+
+  ul {
+    li {
+      margin-left: 34px;
+      text-align: center;
+    }
+  }
+}
+.subtitle {
+  margin: 33px 0px 52px 0px;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #004e35;
+}
+.mission__img {
+  width: 1900px;
+}
